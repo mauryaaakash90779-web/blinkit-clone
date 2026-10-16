@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blinkit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yatra+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .blink {
+        font-size: 30px;
+        font-weight: 900;
+        color: rgba(246, 225, 3, 0.825);
+      }
+      .it {
+        font-size: 30px;
+        font-weight: 900;
+        color: rgb(45, 248, 4);
+      }
+      .box {
+        height: 70px;
+        width: 400px;
+        margin-left: 70px;
+      }
+      .box p {
+        font-size: 13px;
+      }
+      input[type="search"] {
+        width: 600px;
+        margin-left: -100px;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 50px;
+      }
+      .login,
+      .cart {
+        height: 50px;
+        width: 120px;
+        border-radius: 10px;
+        margin-left: 50px;
+      }
+      .img{
+        height:132px;
+        width:132px;
+      }
+      .useful,.category{
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .time{
+        font-size:11px;
+        font-weight:800;
+        color:rgb(98, 97, 97);
+      }
+      .title{
+        font-size:14px;
+        font-weight:600;
+      }
+      .qu{
+        font-size:13px;
+        color:gray;
+      }
+      .rs{
+        margin-top:8px;
+        font-weight:600;
+        font-size:14px;
+      }
+      .btn1{
+        height:40px;
+        width:80px;
+      }
+      .footer{
+        font-size:15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is main container -->
+    <div class="container-fluid">
+      <!-- This is navbar -->
+      <div class="row">
+        <div class="col-sm-12 p-0">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <span class="blink">Blink</span><span class="it">it</span>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="box">
+                <h4 class="fw-bold mb-0 mt-3">Delivery in 8 minutes</h4>
+                <p>3/200. Kursi Rd, near Gudamba.....</p>
+              </div>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item login btn btn-light fw-medium">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Login</a
+                    >
+                  </li>
+                  <li class="nav-item bg-secondary cart btn btn-secondary">
+                    <a class="nav-link text-white fw-medium" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg> Cart</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- This is navbar -->
+
+      <!-- This is container -->
+      <div class="container">
+        <div class="row">
+          <img
+            class="w-100"
+            src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2026-01/Frame-1437256605-2-2.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="row px-3">
+          <div class="col-sm-4">
+            <img
+              class="w-100"
+              src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-4">
+            <img
+              class="w-100"
+              src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/pet_crystal_WEB-1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-4">
+            <img
+              class="w-100"
+              src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/baby_crystal_WEB-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- This is container -->
+
+        <!-- This is container 2 -->
+        <div class="row mt-3">
+          <div class="col-sm-1 img "><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img "><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-2_10.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-3_9.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-4_9.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-5_4.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-6_5.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-7_3.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-8_4.png " class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2025-11/Slice-7-1_0.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-10.png" class="w-100" alt=""></div>
+        </div>
+      </div>
+
+      <div class="row  ms-5 ps-3 my-4">
+          <div class="col-sm-1 img "><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-11.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img "><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-12.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-13.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-14.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-15.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-16.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-17.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-18.png " class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-19.png" class="w-100" alt=""></div>
+          <div class="col-sm-1 img"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-20.png" class="w-100" alt=""></div>
+        </div>
+      </div>
+      </div>
+      <!-- This is container 2 close -->
+
+
+      <div class="container ">
+        <h2 class="mt-3">Dairy & Breakfast</h2>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/628c97e0-5ed4-425d-a667-1d3bfa6f0bde.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Gold Full Cream Milk</h6>
+        <p class="card-text qu">500 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 36
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/5734b087-3ad9-485f-bbe2-52079cd9e35d.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Taaza Toned Milk</h6>
+        <p class="card-text qu">500 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 30
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9a4088cc-db19-4add-b3ce-2edd4d09f4ae.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Taaza Homogenised Toned Milk</h6>
+        <p class="card-text qu">1L</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 77
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/1ded64a0-9f20-4a1d-8211-156f221b377b.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Buffalo A2 Milk</h6>
+        <p class="card-text qu">500 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹40
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/eb2ba2ce-96fd-43cb-acc0-2a04ff6b810d.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Gold Milk</h6>
+        <p class="card-text qu">1L</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 83
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/8b6b5194-6eaa-4db2-9257-2d27ad931303.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Gold Full Cream Milk</h6>
+        <p class="card-text qu">500 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 36
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<h2 class="mt-3">Fruits & vegetables</h2>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9b4cd95e-3f9e-4305-92a0-16d9875c6b4d.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Green chilli (Hari mirch)</h6>
+        <p class="card-text qu">100 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 20
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/f53c1ea1-cfa0-438b-a14c-b4f5ebeed7dd.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Onion (pyaj)</h6>
+        <p class="card-text qu">1 kg</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 70
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/27a22d9c-469e-483d-bebf-7a2b1e86a64c.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Tomato (tmatar)</h6>
+        <p class="card-text qu">500 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 30
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1779767007480-819.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Potato</h6>
+        <p class="card-text qu">1kg</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 50
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1779793527760-106.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Orange Carrot (Gajar)</h6>
+        <p class="card-text qu">500 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 31
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/0908a205-26bf-4135-969a-9002b302069c.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Green Capsicum (Shimla Mirch)</h6>
+        <p class="card-text qu">250 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 41
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<h2 class="mt-3">Coldrinks & Juices</h2>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1770356946958-58.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Thums Up Soft Drink</h6>
+        <p class="card-text qu">750 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 38
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ccfce5a7-71da-489a-b06b-cb6506324ef2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Appy Fizz Sparkling Drink (Apple Flavoured)</h6>
+        <p class="card-text qu">600 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 38
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/a5e18c16-aabe-4fd2-8f82-65d7f6c5e7d2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Pepsi Zero Sugar Soft Drink</h6>
+        <p class="card-text qu">300 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 40
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1776412056592-248.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Thums Up Soft Drink</h6>
+        <p class="card-text qu">300 ML</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 50
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/716ea1fc-9188-4029-859f-a319315134ec.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Pepsi Cola Soft Drink</h6>
+        <p class="card-text qu">2.25 ltr</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 96
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1785470076523-1012.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Limca Lemon 'N' Lime Soft Drink 750 ml</h6>
+        <p class="card-text qu">750 ml</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 40
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<h2 class="mt-3">Sweet Tooth</h2>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1771595609969-1774.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Amul Dark chocolate bar</h6>
+        <p class="card-text qu">35g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 45
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1771904678029-745.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Nestle KitKat Choco-Coated Wafer Pops</h6>
+        <p class="card-text qu">32g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 40
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1784201400764-127.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Kinder Joy Pink 20g</h6>
+        <p class="card-text qu">20g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 50
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/6852fef6-b6d8-46de-b406-546f72458501.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Nestle Munch Max Nuts Double Choco Coated Wafer Bar</h6>
+        <p class="card-text qu">37.5 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 25
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1773831920126-11.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Cadbury Fuse Peanut & Caramel Chocolate Filled Bar</h6>
+        <p class="card-text qu">43 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 45
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9a3d3f3e-989f-43bb-88be-a934a08a2d82.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Sunfeast Dark Fantasy Rich Creme Filled Choco Wafer Roll</h6>
+        <p class="card-text qu">180 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 112
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<h2 class="mt-3">Breakfast & Instant Foods</h2>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ff8791f3-2bf8-48c1-9551-b7368c1b0954.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Kellogg's Multigrain Chocos Variety Pack</h6>
+        <p class="card-text qu">7 pcs</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 64
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/5f483aad-de3d-428d-b9d0-5cc207ce23b0.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Kellogg's Original Corn Flakes</h6>
+        <p class="card-text qu">275g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 99
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/17ab0dda-2250-4dc5-a12b-e8d4ae5a6cb3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Kellogg's Multigrain Chocos More Chocolatey, No-Maida</h6>
+        <p class="card-text qu">385g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 210
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1771553348655-939.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Maggi Double Masala Instant Noodles</h6>
+        <p class="card-text qu">95 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 20
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1775218772831-6.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Yippee Magic Masala Instant Noodles with Added Veggies</h6>
+        <p class="card-text qu">290.4 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 50
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1778664014838-505.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="time mb-0 time">8 MINS</p>
+        <h6 class="card-title title">Maggi 2 Minutes Instant Noodles Made With Quality Spices</h6>
+        <p class="card-text qu">420 g</p>
+
+        <div class="row">
+          <div class="col-md-4 rs">
+            ₹ 80
+          </div>
+          <div class="col-md-8  text-end mt-0">
+            <button class="btn btn1 btn-success">Add +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      </div>
+
+
+
+
+
+
+
+       <!-- This is footer -->
+       <div class="row mx-5 px-5 my-5 pt-3">
+        <div class="col-sm-4 ">
+          <span class="useful">Usefull links</span>
+          <div class="container mt-3  lh-lg text-secondary footer">
+            <div class="row">
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li>Blog</li>
+              <li>Privacy</li>
+              <li>Terms</li>
+              <li>FAQs</li>
+              <li>Security</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li>Partner</li>
+              <li>Franchise</li>
+              <li>Seller</li>
+              <li>Warehouse</li>
+              <li>Deliver</li>
+              <li>Resources</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li>Recipes</li>
+              <li>Bistro</li>
+              <li>District</li>
+              <li>Ambulance</li>
+              <li>Feeding India</li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-8 ">
+          <span class="category ms-3">Categories </span><span class="text-success ms-3"> see all</span>
+          <div class="container mt-4 ms-3  lh-lg text-secondary footer">
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="list-unstyled">
+              <li>Bath & Body</li>
+              <li>Hair</li>
+              <li>Skin & Face</li>
+              <li>Beauty & Cosmetics</li>
+              <li>Feminine Hygiene</li>
+              <li>Baby Care</li>
+              <li>Health & Pharma</li>
+              <li>Sexual Wellness</li>
+              <li>Vegetables & Fruits</li>
+              <li>Atta, Rice & Dal</li>
+              <li>Oil, Ghee & Masala</li>
+            </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-unstyled">
+              <li>Dairy, Bread & Eggs</li>
+              <li>Bakery & Biscuits</li>
+              <li>Dry Fruits & Cereals</li>
+              <li>Chicken, Meat & Fish</li>
+              <li>Kitchenware & Appliances</li>
+              <li>Chips & Namkeen</li>
+              <li>Sweets & Chocolates</li>
+              <li>Drinks & Juices</li>
+              <li>Tea, Coffee & Milk Drinks</li>
+              <li>Sauces & Spreads</li>
+            </ul>
+              </div>
+              <div class="col-md-4">
+              <ul class="list-unstyled">
+              <li>Paan Corner</li>
+              <li>Ice Creams & More</li>
+              <li>Home & Lifestyle</li>
+              <li>Cleaners & Repellents</li>
+              <li>Electronics</li>
+              <li>Stationery & Games</li>
+              <li>Print Store</li>
+              <li>E-Gift Cards</li>
+              <li>Rakhi Gifts</li>
+              <li>Chicken, Meat & Fish</li>
+            </ul>
+          </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    
+    <!-- This is footer -->
+    <!-- This is main container -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
